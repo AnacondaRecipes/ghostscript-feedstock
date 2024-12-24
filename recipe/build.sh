@@ -45,6 +45,8 @@ cp $BUILD_PREFIX/share/gnuconfig/config.* ./ijs
 #       clang-11: error: linker command failed with exit code 1 (use -v to see invocation)
 #       make: *** [bin/gs] Error 1
 
+mkdir ./obj
+
 ./configure \
     --prefix=${PREFIX} \
     --disable-cups \
